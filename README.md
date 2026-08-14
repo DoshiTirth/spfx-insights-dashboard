@@ -13,6 +13,12 @@
 ![SPFx](https://img.shields.io/badge/SPFx-React-blue.svg)
 ![license](https://img.shields.io/badge/license-All%20Rights%20Reserved-lightgrey.svg)
 
+## Preview
+
+![Insights Dashboard preview with mock data](sharepoint/assets/dashboard-screenshot.png)
+
+*Shown with mock data for illustration — live data is pulled from the SharePoint list you configure.*
+
 ## Why this exists
 
 Most teams track their numbers in a SharePoint list, then screenshot it into a report or rebuild
