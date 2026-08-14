@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "insights-dashboard-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/insightsDashboard/InsightsDashboardWebPart.js",
+          "manifest": "./src/webparts/insightsDashboard/InsightsDashboardWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "InsightsDashboardWebPartStrings": "lib/webparts/insightsDashboard/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,102 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.insightsDashboard {
+  font-family: $ms-font-family-fallbacks;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+
+  .title {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #1b1b1f;
+  }
+
+  .filterDropdown {
+    min-width: 200px;
+  }
+
+  .errorBar {
+    margin-bottom: 12px;
+  }
+
+  .kpiRow {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+
+  .kpiCard {
+    padding: 14px 16px;
+    border-radius: 10px;
+    background: #f7f8fa;
+    border-left: 4px solid #2f6fed;
+
+    &.accent-blue { border-left-color: #2f6fed; }
+    &.accent-green { border-left-color: #12b886; }
+    &.accent-amber { border-left-color: #f59f00; }
+    &.accent-red { border-left-color: #e64980; }
+  }
+
+  .kpiLabel {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: #6b6f76;
+    margin-bottom: 6px;
+  }
+
+  .kpiValue {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1b1b1f;
+  }
+
+  .kpiTrend {
+    margin-top: 4px;
+    font-size: 12px;
+    font-weight: 600;
+
+    &.trendUp { color: #12b886; }
+    &.trendDown { color: #e64980; }
+  }
+
+  .chartWrap {
+    position: relative;
+    height: 340px;
+    margin-bottom: 8px;
+  }
+
+  .hint {
+    font-size: 12px;
+    color: #6b6f76;
+    text-align: center;
+  }
+
+  .modalHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 16px;
+    font-weight: 600;
+    border-bottom: 1px solid #edeef1;
+  }
+
+  .modalBody {
+    padding: 12px 16px;
+    min-width: 480px;
+    max-height: 60vh;
+    overflow: auto;
+  }
+}

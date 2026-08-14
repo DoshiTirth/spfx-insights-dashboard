@@ -1,0 +1,39 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-insights-dashboard-client-side-solution",
+    "id": "b7e4c1a2-9f3d-4e6a-8c2b-1a5d9e7f3c60",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.23.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Insights Dashboard - KPI cards and drill-down charts backed by a SharePoint list"
+      },
+      "longDescription": {
+        "default": "Insights Dashboard - KPI cards and drill-down charts backed by a SharePoint list"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "insights-dashboard-client-side-solution Feature",
+        "description": "The feature that activates elements of the insights-dashboard-client-side-solution solution.",
+        "id": "9d2e6b1c-4a7f-4c8d-9e1b-2f6a8c3d5e91",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-insights-dashboard.sppkg"
+  }
+}

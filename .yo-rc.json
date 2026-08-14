@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.14.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.7",
+      "@microsoft/teams-js": "2.24.0"
+    },
+    "version": "1.23.0",
+    "libraryName": "spfx-insights-dashboard",
+    "libraryId": "b7e4c1a2-9f3d-4e6a-8c2b-1a5d9e7f3c60",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "spfx-insights-dashboard",
+    "solutionShortDescription": "SPFx Insights Dashboard web part",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
